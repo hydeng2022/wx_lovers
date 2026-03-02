@@ -36,7 +36,7 @@ module.exports = appInfo => {
   // 正式项目要开启
   config.security = {
     csrf: {
-		  enable: false,
+		  enable: true,
     },
   };
 
@@ -49,7 +49,7 @@ module.exports = appInfo => {
 
   config.userCity = {
     "adname":"榆中县",
-    "adcode":"440900"
+    "adcode":"620123"
   }
 
   // 寄言 一旦设置了就不会请求接口，在这里随机返送一条
